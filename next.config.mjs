@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+        domains: ['objects.pk', 'cdn-icons-png.flaticon.com'],
+      },
+};
 
 export default nextConfig;
